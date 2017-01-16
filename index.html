@@ -23,6 +23,7 @@
       <input type="text" name="firstname" 
         placeholder="First Name" 
         ng-model="user.firstname"
+        ng-minlength="3"
         ng-required="true">
         <p class="error validationerror" ng-show="myform.firstname.$invalid && myform.firstname.$touched">
         You must fill out your first name.
