@@ -47,7 +47,8 @@
       <input type="password" name="password"
         placeholder="Password"
         ng-model="user.password"
-        ng-minlength="6">
+        ng-minlength="6"
+        ng-required="true">
         <p class="error validationerror" ng-show="myform.password.$invalid && myform.password.$touched">
         Password must be at least 6 characters long.
         </p>
